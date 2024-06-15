@@ -4,7 +4,7 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const bodyElem = document.querySelector('body');
+const bodyElem = document.body;
 const btnElem = document.querySelector('button.change-color');
 const spanElem = document.querySelector('span.color');
 

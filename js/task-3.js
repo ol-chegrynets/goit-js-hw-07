@@ -12,10 +12,11 @@ const spanElem = document.querySelector('span#name-output');
 
 inpElem.addEventListener('input', () => {
     const value = inpElem.value.trim().toUpperCase();
-    if (value) {
-    spanElem.textContent = value;
-    } else {
-        spanElem.textContent = 'Anonymous';
-        }
+    // if (value) {
+    // spanElem.textContent = value;
+    // } else {
+    //     spanElem.textContent = 'Anonymous';
+    //     };
+    spanElem.textContent = value ? value : 'Anonymous';
   });
                        
